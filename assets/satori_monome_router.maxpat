@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 205.0, 120.0, 223.0, 265.0 ],
+		"rect" : [ 205.0, 120.0, 224.0, 260.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -508,7 +508,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-95",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -520,7 +520,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-93",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1109,7 +1109,7 @@
 							"parameter_enum" : [ "left", "right", "up", "down" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "gridb.orientation[2]",
+							"parameter_longname" : "gridb.orientation",
 							"parameter_mmax" : 3
 						}
 
@@ -1247,7 +1247,7 @@
 							"parameter_enum" : [ "left", "right", "up", "down" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "grida.orientation[2]",
+							"parameter_longname" : "grida.orientation",
 							"parameter_mmax" : 3
 						}
 
@@ -1540,7 +1540,7 @@
 							"parameter_enum" : [ "left", "right", "up", "down" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "arc.orientation[2]",
+							"parameter_longname" : "arc.orientation",
 							"parameter_mmax" : 3
 						}
 
@@ -1611,7 +1611,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "deviceid3[2]",
+							"parameter_longname" : "deviceid3",
 							"parameter_shortname" : "deviceid3",
 							"parameter_type" : 3
 						}
@@ -2553,7 +2553,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2626,18 +2626,18 @@
 					"presentation_rect" : [ 97.0, 223.666671752929688, 116.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 2.0 ],
 							"parameter_shortname" : "autofocus",
 							"parameter_enum" : [ "off", "device", "track" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "autofocus[2]",
+							"parameter_longname" : "autofocus",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2,
-							"parameter_initial" : [ 2.0 ]
+							"parameter_mmax" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu"
+					"varname" : "autofocus"
 				}
 
 			}
@@ -3179,12 +3179,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 958.0, 414.0, 134.0, 20.0 ],
-					"restore" : [ "m0001012" ],
+					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ "empty" ],
 							"parameter_invisible" : 1,
-							"parameter_longname" : "deviceid2[2]",
+							"parameter_longname" : "deviceid2",
 							"parameter_shortname" : "deviceid2",
 							"parameter_type" : 3
 						}
@@ -3974,7 +3974,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "deviceid1[2]",
+							"parameter_longname" : "deviceid1",
 							"parameter_shortname" : "deviceid1",
 							"parameter_type" : 3
 						}
@@ -4688,10 +4688,10 @@
 					"patching_rect" : [ 308.0, 644.0, 110.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "vb2",
+							"parameter_shortname" : "vb1",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "vb2[1]",
+							"parameter_longname" : "vb1",
 							"parameter_invisible" : 2,
 							"parameter_mmax" : 1
 						}
@@ -6096,6 +6096,74 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-150" : [ "autofocus", "autofocus", 0 ],
+			"obj-50" : [ "vb2", "vb2", 0 ],
+			"obj-14" : [ "vb1", "vb1", 0 ],
+			"obj-81" : [ "gridb.orientation", "gridb.orientation", 0 ],
+			"obj-97" : [ "deviceid1", "deviceid1", 0 ],
+			"obj-38" : [ "grid.configuration", "grid.configuration", 0 ],
+			"obj-66" : [ "vb3", "vb3", 0 ],
+			"obj-30" : [ "deviceid2", "deviceid2", 0 ],
+			"obj-145" : [ "grida.orientation", "grida.orientation", 0 ],
+			"obj-148" : [ "arc.orientation", "arc.orientation", 0 ],
+			"obj-54" : [ "deviceid3", "deviceid3", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "satori_serialosc.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "serialosc.js",
+				"bootpath" : "C74:/packages/BEAP/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "1x128.svg",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2x128hori.svg",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2x128vert.svg",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "1x256.svg",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2x256.svg",
+				"bootpath" : "~/Documents/Max 8/Library",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -6134,9 +6202,9 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
